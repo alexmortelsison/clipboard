@@ -1,26 +1,25 @@
 import { BiCopyright } from "react-icons/bi";
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-center mb-40, px-10 pt-16">
-      <BiCopyright className="mx-auto my-16 h-40 w-40 text-strongCyan"></BiCopyright>
-      <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
-        A history of everything you copy
-      </h3>
-      <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
+    <div className="section-container pt-16 mb-40">
+      <BiCopyright className="h-40 w-40 text-strongCyan mx-auto my-16" />
+      <h3>A history of everything you copy</h3>
+      <p className="text-darkGrayishBlue text-2xl mb-10">
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </p>
-      <div className="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md: space-x-4">
+      <div className="button-container">
         <a
           href="#"
-          className="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
+          className="bg-strongCyan p-4 px-8 rounded-full shadow-2xl hover:opacity-80"
         >
           Download for iOS
         </a>
         <a
           href="#"
-          className="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
+          className="bg-lightBlue p-4 px-8 rounded-full shadow-2xl hover:opacity-80"
         >
           Download for Mac
         </a>
