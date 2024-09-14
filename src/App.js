@@ -1,5 +1,11 @@
+import Hero from "./components/Hero";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Hero></Hero>
+    </div>
+  );
 }
 
 export default App;
